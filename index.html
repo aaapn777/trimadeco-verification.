@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Verificación de seguridad antes de continuar a Trimadeco.">
+  <title>Verificación de seguridad | Trimadeco</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <section class="verification-card" aria-labelledby="heading">
+      <div class="brand-mark" aria-hidden="true">T</div>
+      <p class="eyebrow">TRIMADECO</p>
+      <h1 id="heading">Verificación de seguridad</h1>
+      <p class="intro">Antes de continuar, completa esta comprobación de seguridad.</p>
+
+      <div class="destination">
+        <span class="destination-label">Vas a continuar a</span>
+        <strong>www.trimadeco.com</strong>
+      </div>
+
+      <div id="challenge" class="challenge">
+        <p id="loading">Cargando verificación segura…</p>
+        <div id="turnstile-container"></div>
+      </div>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <button id="continue-button" class="continue-button" type="button" disabled>
+        Verificar y continuar
+      </button>
+      <p class="fine-print">La comprobación ayuda a proteger este acceso frente al tráfico automatizado.</p>
+    </section>
+    <footer>Conexión segura · Trimadeco</footer>
+  </main>
+</body>
+</html>
